@@ -13,7 +13,7 @@ $(document).ready(function() {
 function getThingSpeakData(channel) {
 
   // contruct URL to get
-  url = 'http://api.thingspeak.com/channels/' + channel + '/feed/last.json';
+  url = 'https://api.thingspeak.com/channels/' + channel + '/feed/last.json';
 
   // get ThingSpeak data using AJAX
   $.ajax({url: url, success: function(data){
