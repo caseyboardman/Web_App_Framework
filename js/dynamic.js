@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   // bind the click event to the button
   $("#buttonToClick").click(function() {
-    getThingSpeakData(1417);
+     $("body").css('background-color', 'green')
   });
 
   // periodically get
