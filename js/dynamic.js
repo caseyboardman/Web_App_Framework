@@ -2,11 +2,12 @@ $(document).ready(function() {
 
   // bind the click event to the button
   $("#buttonToClick").click(function() {
-     getThingSpeakData(1417);
+      getThingSpeakData(1417);
+      alert('what');
   });
 
   // periodically get
-  setInterval(function(){ getThingSpeakData(1417); }, 3000);
+  setInterval(function(){ getThingSpeakData(1417); }, 5000);
 
 });
 
