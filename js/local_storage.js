@@ -30,6 +30,7 @@ $(document).ready(function() {
 
   if (channel) {
     $("#channel").val(channel);
+    getThingSpeakData(channel);
   }
 
 
